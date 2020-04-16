@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Favorite Apps</string>
+    <string name="watch_movie">Watch Movie</string>
+    <string name="tab_movies">Movies</string>
+    <string name="tab_tv_show">TV Show</string>
+
+    <string name="description_poster">Show Poster Image</string>
+    <string name="description_fav_image">Icon for like the movie</string>
+    <string name="movie_language">en-US</string>
+    <string name="empty_item">Empty Item</string>
+    <string name="no_content">No Description </string>
+
+    <string name="change_language_settings">Change Language Settings</string>
+
+    <string name="app_google_play_store_link">"https://play.google.com/store/apps/details?id="</string>
+    <string name="app_market_link">"market://details?id="</string>
+    <string name="appwidget_text">Movie Catalogue</string>
+</resources>

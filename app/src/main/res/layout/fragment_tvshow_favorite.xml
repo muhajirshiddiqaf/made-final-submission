@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="position"
+            type="java.lang.Integer" />
+
+
+        <variable
+            name="vmTvFavorite"
+            type="com.ids.madesubmission4.ui.tv.tvshowfavorite.TvShowFavoriteViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.tv.tvshow.TvShowFragment">
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:onRefreshListener="@{() -> vmTvFavorite.onRefresh()}"
+            app:refreshing="@{vmTvFavorite.isRefresh}">
+
+            <com.ids.madesubmission4.custom.EmptyRecyclerView
+                android:id="@+id/rv_item"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:emptyString="@string/empty_item"
+                app:setAdapter="@{vmTvFavorite.getAdapter()}"
+                tools:listitem="@layout/item_movie" />
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    </RelativeLayout>
+</layout>

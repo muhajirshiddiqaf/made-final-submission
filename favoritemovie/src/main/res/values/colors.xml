@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#28a8fd</color>
+    <color name="colorPrimaryDark">#28a8fd</color>
+    <color name="colorAccent">#06DFFE</color>
+
+    <color name="redAccent">#fe485a</color>
+    <color name="ratingColor">#FFA41C</color>
+    <color name="textColor">#889AAC</color>
+
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorBackground">#fafafa</color>
+    <color name="colorGrey">#C2C2C2</color>
+
+</resources>

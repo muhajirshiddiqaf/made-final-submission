@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Favorite Apps</string>
+    <string name="watch_movie">Tonton Movie</string>
+    <string name="tab_movies">Film</string>
+    <string name="tab_tv_show">Serial TV</string>
+
+    <string name="description_poster">Menampilkan Gambar Poster</string>
+    <string name="description_fav_image">Icon untuk menyukai film</string>
+    <string name="movie_language">id-ID</string>
+    <string name="empty_item">Tidak Ada Data</string>
+    <string name="no_content">Tidak Ada Deskripsi</string>
+
+    <string name="change_language_settings">Ubah Pengaturan Bahasa</string>
+
+    <string name="app_google_play_store_link">"https://play.google.com/store/apps/details?id="</string>
+    <string name="app_market_link">"market://details?id="</string>
+    <string name="appwidget_text">Movie Catalogue</string>
+</resources>

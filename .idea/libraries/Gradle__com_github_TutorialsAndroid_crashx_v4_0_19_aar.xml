@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.TutorialsAndroid:crashx:v4.0.19@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4d5a108d76d9a26d213d8249ad891ada/jetified-crashx-v4.0.19/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4d5a108d76d9a26d213d8249ad891ada/jetified-crashx-v4.0.19/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4d5a108d76d9a26d213d8249ad891ada/jetified-crashx-v4.0.19/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.TutorialsAndroid/crashx/v4.0.19/42fb331b7e66e1a06fe83c829e054ba26dceebac/crashx-v4.0.19-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
